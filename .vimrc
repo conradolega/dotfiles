@@ -25,6 +25,6 @@ set splitbelow
 set laststatus=2
 autocmd Filetype gitcommit setlocal spell textwidth=72
 
-set t_Co=256
+set t_Co=16
 set background=dark
 colorscheme solarized

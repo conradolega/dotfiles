@@ -6,7 +6,8 @@ fi
 
 function parse_git_branch {
     ref=$(git symbolic-ref HEAD 2> /dev/null) || return
-    echo "("${ref#refs/heads/}")"
+    color=$([[ -z $(git status -s) ]] && echo '0;32m' || echo '1;31m')
+    echo "$color("${ref#refs/heads/}")"
 }
 
-PS1="\[\e[1;32m\]\$(date +%H:%M) \u@\h:\w \[\e[1;31m\]\$(parse_git_branch)\[\e[0;37m\]$ "
+PS1="\[\e[1;32m\]\$(date +%H:%M) \u@\h:\w \[\e[\$(parse_git_branch)\[\e[0;37m\]$ "

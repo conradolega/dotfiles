@@ -13,4 +13,4 @@ function parse_git_branch {
     echo "("${ref#refs/heads/}")"
 }
 
-PS1="\[\e[1;32m\]\$(date +%H:%M) \u@\h:\w \[\e[\$(git_branch_color)\]\$(parse_git_branch)\[\e[0;37m\]$ "
+PS1="\[\e[1;32m\]\$(date +%H:%M) \u@\h:\w \[\e[\$(git_branch_color)\]\$(parse_git_branch)\[\e[0;0m\]$ "

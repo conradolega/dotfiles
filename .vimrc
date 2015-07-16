@@ -12,6 +12,7 @@ Plugin 'bling/vim-airline'
 Plugin 'kien/ctrlp.vim'
 Plugin 'elzr/vim-json'
 Plugin 'altercation/vim-colors-solarized'
+Plugin 'tpope/vim-obsession'
 
 call vundle#end()
 

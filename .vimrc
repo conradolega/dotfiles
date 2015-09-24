@@ -13,6 +13,8 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'elzr/vim-json'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'tpope/vim-obsession'
+Plugin 'junegunn/goyo.vim'
+Plugin 'junegunn/limelight.vim'
 
 call vundle#end()
 

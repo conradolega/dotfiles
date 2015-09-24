@@ -27,6 +27,7 @@ set splitright
 set splitbelow
 set laststatus=2
 autocmd Filetype gitcommit setlocal spell textwidth=72
+autocmd BufNewFile,BufReadPost *.md set filetype=markdown
 
 set t_Co=16
 set background=dark

@@ -33,3 +33,5 @@ autocmd BufNewFile,BufReadPost *.md set filetype=markdown
 set t_Co=16
 set background=dark
 colorscheme solarized
+
+noremap <C-a> ggvG$

@@ -23,6 +23,7 @@ filetype plugin indent on
 set number
 set tabstop=2
 set expandtab
+set hlsearch
 set splitright
 set splitbelow
 set laststatus=2

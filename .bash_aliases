@@ -6,4 +6,4 @@ alias ....='cd ../../..'
 alias tmux='TERM=screen-256color tmux -2'
 alias g='git'
 
-? () { grep -nir "$1" ${2:-.}; }
+? () { ag -i "$1" ${2:-.}; }

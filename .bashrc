@@ -4,6 +4,10 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
+if [ -z "$TMUX" ]; then
+    tmux attach-session -t 0
+fi
+
 function git_branch_color {
     echo $([[ -z $(git status -s 2> /dev/null) ]] && echo '0;32m' || echo '1;31m')
 }

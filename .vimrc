@@ -37,3 +37,6 @@ set background=dark
 colorscheme solarized
 
 noremap <C-a> ggvG$
+
+let g:ctrlp_max_files = 0
+let g:ctrlp_clear_cache_on_exit = 0

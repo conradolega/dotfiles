@@ -3,6 +3,7 @@ set nocompatible
 filetype off
 
 set rtp+=~/.vim/bundle/Vundle.vim
+set rtp+=~/.fzf
 call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'
@@ -15,6 +16,11 @@ Plugin 'altercation/vim-colors-solarized'
 Plugin 'tpope/vim-obsession'
 Plugin 'junegunn/goyo.vim'
 Plugin 'junegunn/limelight.vim'
+Plugin 'rodjek/vim-puppet'
+Plugin 'solarnz/arcanist.vim'
+Plugin 'fatih/vim-go'
+Plugin 'solarnz/thrift.vim'
+Plugin 'junegunn/fzf.vim'
 
 call vundle#end()
 

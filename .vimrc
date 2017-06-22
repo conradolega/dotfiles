@@ -48,11 +48,11 @@ noremap <C-a> ggvG$
 let g:ctrlp_max_files = 0
 let g:ctrlp_clear_cache_on_exit = 0
 
-" The Silver Searcher
+" ripgrep
 if executable('rg')
-  " Use ag over grep
-  set grepprg=rg\ --nogroup\ --nocolor
+  " Use rg over grep
+  set grepprg=rg\ --vimgrep\ --no-heading
 
-  " Use ag in CtrlP for listing files. Lightning fast and respects .gitignore
-  let g:ctrlp_user_command = 'rg %s -l --nocolor -g ""'
+  " Use rg in CtrlP for listing files. Lightning fast and respects .gitignore
+  let g:ctrlp_user_command = 'rg %s --files --color=never --glob ""'
 endif

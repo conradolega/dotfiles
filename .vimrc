@@ -21,6 +21,10 @@ Plugin 'solarnz/arcanist.vim'
 Plugin 'fatih/vim-go'
 Plugin 'solarnz/thrift.vim'
 Plugin 'junegunn/fzf.vim'
+Plugin 'othree/yajs.vim'
+Plugin 'jremmen/vim-ripgrep'
+Plugin 'mfukar/robotframework-vim'
+Plugin 'bracki/vim-prometheus'
 
 call vundle#end()
 

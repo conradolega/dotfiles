@@ -42,7 +42,7 @@ set foldmethod=indent
 autocmd Filetype gitcommit setlocal spell textwidth=72
 autocmd BufNewFile,BufReadPost *.md set filetype=markdown
 autocmd BufNewFile,BufReadPost Dockerfile set filetype=dockerfile
-autocmd BufNewFile,BufReadPost Jenkinsfile set syntax=groovy
+autocmd BufNewFile,BufReadPost Jenkinsfile set filetype=groovy
 
 set t_Co=16
 set background=dark

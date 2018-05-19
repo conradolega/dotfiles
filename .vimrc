@@ -25,6 +25,8 @@ Plugin 'othree/yajs.vim'
 Plugin 'jremmen/vim-ripgrep'
 Plugin 'mfukar/robotframework-vim'
 Plugin 'bracki/vim-prometheus'
+Plugin 'lumiliet/vim-twig'
+Plugin 'valloric/youcompleteme'
 
 call vundle#end()
 

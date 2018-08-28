@@ -169,3 +169,6 @@ bindsym XF86MonBrightnessDown exec light -U 10 # decrease screen brightness
 
 # Set natural scrolling
 exec --no-startup-id synclient HorizEdgeScroll=1 VertEdgeScroll=1 VertScrollDelta=-111
+
+# Vsync
+exec --no-startup-id compton --backend glx

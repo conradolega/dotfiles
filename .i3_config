@@ -157,7 +157,8 @@ bar {
 }
 
 # Lock screen
-bindsym $mod+Mod1+l exec i3lock -c 000000
+bindsym $mod+Mod1+l exec i3lock-blur
+exec xautolock -time 5 locker 'i3lock-blur'
 
 # Bind volume keys
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 1 +5% #increase sound volume
